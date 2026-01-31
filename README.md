@@ -19,12 +19,13 @@ To write a program to predict the profit of a city using the linear regression m
 
 6.Compare the graphs and hence we obtained the linear regression for the given datas.
 ## Program:
+~~~
 /*
 Program to implement the linear regression using gradient descent.
 Developed by: Gundarapu chaithanya
 RegisterNumber:  25011828
 */
-~~~
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -49,36 +50,21 @@ for _ in range(epochs):
     w-=alpha*dw
     b-=alpha*db
 plt.figure(figsize=(12, 5))
-
 plt.subplot(1, 2, 1)
-
 plt.plot(losses)
-
 plt.xlabel("Iterations")
-
 plt.ylabel("Loss (MSE)")
-
 plt.title("Loss vs Iterations")
-
 plt. subplot(1, 2, 2)
-
 plt.scatter(x, y)
-
 x_sorted = np.argsort(x)
-
 plt.plot(x[x_sorted], (w * x + b) [x_sorted],color='red')
-
 plt.xlabel("R&D Spend (scaled)")
-
 plt.ylabel("Profit")
-
 plt.title("Linear Regression Fit")
-
 plt.tight_layout() 
 plt.show()
-
 print("Final weight (w):", w)
-
 print("Final bias (b):", b)
 ~~~
 ## Output:
