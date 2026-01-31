@@ -1,4 +1,3 @@
-![WhatsApp Image 2026-01-31 at 8 05 22 AM](https://github.com/user-attachments/assets/704533a7-168d-49fa-a29a-3a3e8abf5a95)# Implementation-of-Linear-Regression-Using-Gradient-Descent
 
 ## AIM:
 To write a program to predict the profit of a city using the linear regression model with gradient descent.
@@ -8,11 +7,17 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1.Import the standard Libraries.
 
+2.Set variables for assigning dataset values.
+
+3.Import linear regression from sklearn.
+
+4.Assign the points for representing in the graph.
+
+5.Predict the regression for marks by using the representation of the graph.
+
+6.Compare the graphs and hence we obtained the linear regression for the given datas.
 ## Program:
 /*
 Program to implement the linear regression using gradient descent.
@@ -79,15 +84,7 @@ print("Final bias (b):", b)
 ## Output:
 
 
-![ml 3 img](https://github.com/user-attachments/assets/84453b1a-8d05-44c4-934a-71cbda1d2e9b)
-
-
-
-
-
-
-
-
+<img width="799" height="368" alt="image" src="https://github.com/user-attachments/assets/83f97eec-8235-44cc-9b96-3986f609d584" />
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
